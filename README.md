@@ -69,34 +69,34 @@ ArduinoOTA
 SerialHTML (custom or internal library)
 Connect to the ESP32's IP address shown in serial output after WiFi connection.
 
-⚙️ Special Features
+⚙️ Special Features\
 ✅ IR Remote Support (NEC protocol)\
 ✅ Real-time WebSocket Control\
 ✅ OTA Firmware Updates\
-OTA is robust — it safely disables IR decoding and UI during updates to prevent interference.
+OTA is robust — it safely disables IR decoding and UI during updates to prevent interference.\
 ✅ Hardware Watchdog Timer (WDT)\
-Ensures recovery from hangs or logic faults.
+Ensures recovery from hangs or logic faults.\
 ✅ Failsafe WiFi reconnect logic\
 
-🧠 IR Code Mapping
-IR Code (Hex)	Function
-0xE208293C	Light ON
-0x24ACF947	Light OFF
-0xE3C01BE2	Ventilation 1
-0xD051C301	Ventilation 2
-0xC22FFFD7	Ventilation 3
-0xB9121B29	Ventilation 4
-0x055303A3	Ventilation OFF
+🧠 IR Code Mapping\
+IR Code (Hex)	Function\
+0xE208293C	Light ON\
+0x24ACF947	Light OFF\
+0xE3C01BE2	Ventilation 1\
+0xD051C301	Ventilation 2\
+0xC22FFFD7	Ventilation 3\
+0xB9121B29	Ventilation 4\
+0x055303A3	Ventilation OFF\
 
 You can update these in the code to match your remote.
 
-🧪 Debugging & Logs
-Open the Serial Monitor at 115200 baud to see:
-IR signal decoding
-Fan/light command handling
-OTA state
-WiFi reconnection attempts
-Watchdog resets (if triggered)
+🧪 Debugging & Logs\
+Open the Serial Monitor at 115200 baud to see:\
+IR signal decoding\
+Fan/light command handling\
+OTA state\
+WiFi reconnection attempts\
+Watchdog resets (if triggered)\
 📸 Images You Can Add
  Schematic / wiring diagram
  ESP32 board photo installed in your hood
