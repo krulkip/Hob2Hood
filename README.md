@@ -36,38 +36,17 @@ Built-in LED	GPIO 2	Optional status indicator
 
 All output pins drive relays or transistors that emulate button presses or control hood power rails.
 
-📘 You can upload a connection diagram/schematic here once it's ready.
-
 🌐 Web Interface (SerialHTML)
 Simple control page served by ESP32, with buttons to control Light and Vent speed via WebSocket.
 
-🔧 Installation & Setup
-Clone the repository:
+🔧 Installation & Setup\
+Ensure you have the following libraries installed:\
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/hob2hood-esp32.git
-cd hob2hood-esp32
-Create a secret.h file in the root directory:
-
-⚠️ This file is ignored by Git for security. Do not commit it.
-
-cpp
-Copy
-Edit
-// secret.h
-const char ssid[] = "YOUR_WIFI_SSID";
-const char password[] = "YOUR_WIFI_PASSWORD";
-Compile and upload via Arduino IDE or PlatformIO
-
-Ensure you have the following libraries installed:
-
-ESPAsyncWebServer
-AsyncTCP
-ArduinoOTA
-SerialHTML (custom or internal library)
-Connect to the ESP32's IP address shown in serial output after WiFi connection.
+ESPAsyncWebServer\
+AsyncTCP\
+ArduinoOTA\
+SerialHTML (custom or internal library)\
+Connect to the ESP32's IP address shown in serial output after WiFi connection.\
 
 ⚙️ Special Features\
 ✅ IR Remote Support (NEC protocol)\
@@ -88,16 +67,16 @@ IR Code (Hex)	Function\
 0xB9121B29	Ventilation 4\
 0x055303A3	Ventilation OFF\
 
-You can update these in the code to match your remote.
+You can update these in the code to match your remote.\
 
 🧪 Debugging & Logs\
-Open the Serial Monitor at 115200 baud to see:\
+Open the Web Serial Monitor at ESP32Hob2Hood/serial\
 IR signal decoding\
 Fan/light command handling\
 OTA state\
 WiFi reconnection attempts\
 Watchdog resets (if triggered)\
-📸 Images You Can Add
- Schematic / wiring diagram
- ESP32 board photo installed in your hood
- Screenshot of the web control page
+📸 Images
+ Schematic / wiring diagram coming\
+ ESP32 board photo installed in your hood\
+ Screenshot of the web control page\
