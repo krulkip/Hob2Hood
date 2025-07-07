@@ -78,6 +78,15 @@ WiFi reconnection attempts\
 Watchdog resets (if triggered)\
 📸 Images
  Schematic / wiring diagram coming\
+ 
+ 
+ 
  ![Schematic](Hob2Hood.jpg?raw=true "Hob2Hood")
+ 
+ 
+ 
  ESP32 board photo installed in your hood\
  Screenshot of the web control page\
+ 
+ 
+ ![Screenshot](screenshot.jpg?raw=true "Hob2Hood")
