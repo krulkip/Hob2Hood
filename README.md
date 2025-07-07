@@ -89,4 +89,4 @@ Watchdog resets (if triggered)\
  Screenshot of the web control page\
  
  
- ![Screenshot](screenshot.jpg?raw=true "Hob2Hood")
+ ![Screenshot](serialHTML.jpg?raw=true "Hob2Hood")
