@@ -49,13 +49,13 @@ SerialHTML (custom or internal library)\
 Connect to the ESP32's IP address shown in serial output after WiFi connection.\
 
 ⚙️ Special Features\
-✅ IR Remote Support (NEC protocol)\
-✅ Real-time WebSocket Control\
-✅ OTA Firmware Updates\
-OTA is robust — it safely disables IR decoding and UI during updates to prevent interference.\
-✅ Hardware Watchdog Timer (WDT)\
-Ensures recovery from hangs or logic faults.\
-✅ Failsafe WiFi reconnect logic\
+🔧 Modular structure: clean, well-organized functions.\
+📡 OTA integrated safely to enable over the air updates (disables IR for robustness).\
+🔄 Watchdog Timer (WDT) to ensure recovery from freezing/lockups.\
+🌐 WiFi reconnect logic is lightweight and correct.\
+📲 SerialHTML abstraction for WebSerial with realtime WebSocket control.\
+📦 CommandQueue + xQueue usage is perfect for decoupling.\
+🕹️ IR Task on separate core giving robustness and responsiveness.\
 
 🧠 IR Code Mapping\
 IR Code (Hex)	Function\
