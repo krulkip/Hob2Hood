@@ -1,9 +1,13 @@
 # 🛠️ Hob2Hood ESP32 Control System
 
-Image: ESP32 DevKitC board used in this project (placeholder)
+
 
 📌 What is Hob2Hood?
 Hob2Hood is an automation system that allows an induction hob (cooktop) to communicate wirelessly with a kitchen range hood. It controls the ventilation fan speed and lighting based on the hob’s state — for example, turning on the fan when cooking starts, or adjusting its speed as the heat increases.
+
+4 relay board             |  ESP32 D1 mini
+:-------------------------:|:-------------------------:
+![4Relay](4relay.jpg)  |  ![ESP32 D1 mini](ESP32_D1_mini.jpg)
 
 Some hobs and hoods support Hob2Hood natively (e.g. AEG, Electrolux), using infrared (IR) communication to transmit commands.
 This project replicates and enhances that functionality using an ESP32, allowing:
