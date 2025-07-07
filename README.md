@@ -67,7 +67,7 @@ IR Code (Hex)	Function\
 0xB9121B29	Ventilation 4\
 0x055303A3	Ventilation OFF\
 
-You can update these in the code to match your remote.\
+
 
 🧪 Debugging & Logs\
 Open the Web Serial Monitor at ESP32Hob2Hood/serial\
@@ -78,5 +78,6 @@ WiFi reconnection attempts\
 Watchdog resets (if triggered)\
 📸 Images
  Schematic / wiring diagram coming\
+ ![Schematic](hob2hood.jpg?raw=true "Hob2Hood")
  ESP32 board photo installed in your hood\
  Screenshot of the web control page\
