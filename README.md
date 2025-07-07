@@ -77,7 +77,7 @@ OTA state\
 WiFi reconnection attempts\
 Watchdog resets (if triggered)\
 📸 Images
- Schematic / wiring diagram coming\
+ Schematic / wiring diagram
  
  
  
@@ -86,7 +86,7 @@ Watchdog resets (if triggered)\
  
  
  ESP32 board photo installed in your hood\
- Screenshot of the web control page\
+ Screenshot of the web control page
  
  
  ![Screenshot](serialHTML.jpg?raw=true "Hob2Hood")
