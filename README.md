@@ -26,7 +26,7 @@ Supports OTA updates, with IR and SerialHTML safely paused during update
 Implements a watchdog timer for reliability
 
 🔌 Wiring / Pinout (ESP32 to Hood)
-Function	ESP32 GPIO	Notes
+Function	ESP32 GPIO	Notes lll
 IR Receiver	GPIO 5	Connect IR sensor OUT pin here
 Fan Speed (1)	GPIO 32	Relay or level shifter
 Fan Speed (2/3)	GPIO 27	Shared relay for levels 2 & 3
