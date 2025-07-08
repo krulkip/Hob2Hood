@@ -97,4 +97,4 @@ Watchdog resets (if triggered)\
  
  
  
- ![Old_Fan](Fan_connect.jpg?raw=true "){:height="50%" width="50%"}
+ ![Old_Fan]<img src = "Fan_connect.jpg" height="50%" width="50%">
