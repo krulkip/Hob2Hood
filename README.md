@@ -98,3 +98,13 @@ Watchdog resets (if triggered)\
  
  
  <img src = "Fan_connect.jpg" width="50%">
+ 
+ Some improvements possible.\
+ Put a 100nF capacitor on the power supply to the ESP32\
+ Add a 10kOhm resistor pull down on the IR receiver.\
+ These should improve the IR receiver and produce less eroneous signals.\
+ Add a snubber circuit to dampen the relay. I see that when the relay operates this generates bogus IR signals.\
+ RC snubber: good for both AC/DC, but may allow some current leakage.\
+ Diode: simple, great for DC, slows turn-off time slightly.\
+ Zener + diode: faster turn-off, tighter voltage control.\
+ Varistor (MOV): robust spike suppression, mainly AC use, can degrade over time.
