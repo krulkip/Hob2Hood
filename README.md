@@ -54,10 +54,11 @@ Connect to the ESP32's IP address shown in serial output after WiFi connection.\
 ⚙️ Special Features\
 🔧 Modular structure: clean, well-organized functions.\
 📡 OTA integrated safely to enable over the air updates (disables IR for robustness).\
-🔄 Watchdog Timer (WDT) to ensure recovery from freezing/lockups.\
+🔄 Watchdog Timer (WDT) to ensure recovery from freezing/lockups covering all cores.\
 🌐 WiFi reconnect logic is lightweight and correct.\
 📲 SerialHTML abstraction for WebSerial with realtime WebSocket control.\
 📦 CommandQueue + xQueue usage is perfect for decoupling.\
+🧪 Debug info sent to serialHTML for checking incoming IR codes.\
 🕹️ IR Task on separate core giving robustness and responsiveness.\
 
 🧠 IR Code Mapping\
