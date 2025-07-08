@@ -91,3 +91,10 @@ Watchdog resets (if triggered)\
  
  
  ![Screenshot](serialHTML.jpg?raw=true "Hob2Hood")
+ 
+ Old wiring of Hood. The 3 way rocker switch was replaced by two relays.
+ In my actual wiring i have used 3 but one is closed permanently and so has no function.
+ 
+ 
+ 
+ ![Old_Fan](Fan_connect.jpg?raw=true "Hob2Hood")
