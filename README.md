@@ -97,4 +97,4 @@ Watchdog resets (if triggered)\
  
  
  
- <img src = "Fan_connect.jpg" height="50%" width="50%">
+ <img src = "Fan_connect.jpg" width="50%">
