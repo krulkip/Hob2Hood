@@ -97,4 +97,4 @@ Watchdog resets (if triggered)\
  
  
  
- ![Old_Fan](Fan_connect.jpg?raw=true "Hob2Hood")
+ ![Old_Fan](Fan_connect.jpg?raw=true "Hob2Hood{:height="50%" width="50%"}
