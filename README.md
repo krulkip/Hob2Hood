@@ -16,11 +16,11 @@ OTA (Over-The-Air) firmware updates\
 Web-based control interface\
 
 🚀 What This Program Does
-This firmware is running on an ESP32:
-Listens to IR commands using the RMT peripheral
-Decodes DECODE_HASH - format signals. This is a native IRRemote library protocol that works with Hob2Hood.
-Maps decoded signals to known Hob2Hood commands (Vent1–4, Light On/Off)
-Controls output GPIO pins that switch relays connected to:\
+This firmware is running on an ESP32:\
+Listens to IR commands using the RMT peripheral and a TSOP4838 IR receiver.\
+Decodes DECODE_HASH - format signals. This is a native IRRemote library protocol that works with Hob2Hood.\
+Maps decoded signals to known Hob2Hood commands (Vent1–4, Light On/Off)\
+Controls output GPIO pins that switch relays connected to:\\
 Fan speed relays (Vent1–4)\
 Light switch\
 Hosts a web interface which has a serial input where commands can be typed in (via SerialHTML)\
@@ -28,8 +28,8 @@ These real-time command reception works via WebSocket\
 Supports OTA updates, with IR and SerialHTML safely paused during update\
 Implements a watchdog timer for reliability
 
-🔌 Wiring / Pinout (ESP32 to Hood)
-Function ESP32 GPIO  
+🔌 Wiring / Pinout (ESP32 to Hood)\
+Function ESP32 GPIO\  
 IR Receiver	    GPIO  5	Connect IR sensor OUT pin here\
 Fan Speed (1)	GPIO 32	Level shifter FAN HIGH or LOW\
 Fan Speed (2/3)	GPIO 27	Not used relay needs to be HIGH allways
